@@ -1,9 +1,8 @@
 import React, { Component } from "react";
 
 class Screen extends Component {
-  state = {};
   render() {
-    return <div>{this.props.value}</div>;
+    return <React.Fragment>{this.props.value}</React.Fragment>;
   }
 }
 
